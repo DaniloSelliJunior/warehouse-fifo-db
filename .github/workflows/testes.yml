@@ -1,0 +1,41 @@
+# A cada push ou pull request: cria o banco num PostgreSQL 16 limpo,
+# carrega os dados de exemplo, roda os testes e todas as consultas.
+name: testes
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  banco:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: deposito
+          POSTGRES_PASSWORD: deposito
+          POSTGRES_DB: postgres
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U deposito"
+          --health-interval 5s --health-timeout 3s --health-retries 10
+    env:
+      PGHOST: localhost
+      PGUSER: deposito
+      PGPASSWORD: deposito
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cria o banco e carrega os dados de exemplo
+        run: ./scripts/criar_banco_local.sh
+
+      - name: Testes das regras de negocio
+        run: ./scripts/rodar_testes.sh
+
+      - name: Consultas de relatorio rodam sem erro
+        run: |
+          for f in queries/*.sql; do
+            echo "== $f"
+            psql -v ON_ERROR_STOP=1 -d bd_deposito -f "$f" > /dev/null
+          done

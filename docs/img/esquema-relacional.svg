@@ -1,0 +1,236 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="919" height="1580" viewBox="0 0 919 1580" font-family="DejaVu Sans" font-size="13">
+<rect width="919" height="1580" fill="white"/>
+<defs><marker id="seta" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="black"/></marker></defs>
+<text x="129" y="33" fill="black">CATEGORIA</text>
+<rect x="129.0" y="38" width="95.9" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="55" fill="black">Id_categoria</text>
+<line x1="137.0" y1="57.5" x2="216.9" y2="57.5" stroke="black" stroke-width="1"/>
+<rect x="224.9" y="38" width="122.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="232.9" y="55" fill="black">Nome_categoria</text>
+<rect x="347.1" y="38" width="147.8" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="355.1" y="55" fill="black">Descricao_categoria</text>
+<text x="129" y="105" fill="black">PRODUTO</text>
+<rect x="129.0" y="110" width="85.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="127" fill="black">Id_produto</text>
+<line x1="137.0" y1="129.5" x2="206.4" y2="129.5" stroke="black" stroke-width="1"/>
+<rect x="214.4" y="110" width="39.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="222.4" y="127" fill="black">Sku</text>
+<rect x="254.0" y="110" width="79.9" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="262.0" y="127" fill="black">Descricao</text>
+<rect x="333.9" y="110" width="69.8" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="341.9" y="127" fill="black">Unidade</text>
+<rect x="403.8" y="110" width="68.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="411.8" y="127" fill="black">Peso_kg</text>
+<rect x="472.1" y="110" width="74.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="480.1" y="127" fill="black">Perecivel</text>
+<rect x="546.6" y="110" width="146.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="554.6" y="127" fill="black">Prazo_validade_dias</text>
+<rect x="693.2" y="110" width="95.9" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="701.2" y="127" fill="black">Id_categoria</text>
+<text x="129" y="185" fill="black">ZONA</text>
+<rect x="129.0" y="190" width="65.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="207" fill="black">Id_zona</text>
+<line x1="137.0" y1="209.5" x2="186.6" y2="209.5" stroke="black" stroke-width="1"/>
+<rect x="194.6" y="190" width="91.8" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="202.6" y="207" fill="black">Nome_zona</text>
+<rect x="286.4" y="190" width="89.8" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="294.4" y="207" fill="black">Local_fisico</text>
+<rect x="376.2" y="190" width="62.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="384.2" y="207" fill="black">Funcao</text>
+<text x="129" y="257" fill="black">ZONA_CATEGORIA</text>
+<rect x="129.0" y="262" width="65.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="279" fill="black">Id_zona</text>
+<line x1="137.0" y1="281.5" x2="186.6" y2="281.5" stroke="black" stroke-width="1"/>
+<rect x="194.6" y="262" width="95.9" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="202.6" y="279" fill="black">Id_categoria</text>
+<line x1="202.6" y1="281.5" x2="282.5" y2="281.5" stroke="black" stroke-width="1"/>
+<text x="129" y="345" fill="black">ENDERECO</text>
+<rect x="129.0" y="350" width="95.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="367" fill="black">Id_endereco</text>
+<line x1="137.0" y1="369.5" x2="216.2" y2="369.5" stroke="black" stroke-width="1"/>
+<rect x="224.2" y="350" width="65.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="232.2" y="367" fill="black">Id_zona</text>
+<rect x="289.8" y="350" width="128.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="297.8" y="367" fill="black">Codigo_endereco</text>
+<rect x="418.0" y="350" width="72.8" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="426.0" y="367" fill="black">Corredor</text>
+<rect x="490.8" y="350" width="63.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="498.8" y="367" fill="black">Modulo</text>
+<rect x="554.0" y="350" width="48.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="562.0" y="367" fill="black">Nivel</text>
+<rect x="602.6" y="350" width="127.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="610.6" y="367" fill="black">Capacidade_max</text>
+<rect x="729.9" y="350" width="110.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="737.9" y="367" fill="black">Tipo_endereco</text>
+<rect x="840.4" y="350" width="49.0" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="848.4" y="367" fill="black">Ativo</text>
+<text x="129" y="425" fill="black">ENDERECO_PORTA_PALLET</text>
+<rect x="129.0" y="430" width="95.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="447" fill="black">Id_endereco</text>
+<line x1="137.0" y1="449.5" x2="216.2" y2="449.5" stroke="black" stroke-width="1"/>
+<rect x="224.2" y="430" width="104.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="232.2" y="447" fill="black">Altura_vao_m</text>
+<rect x="328.6" y="430" width="111.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="336.6" y="447" fill="black">Carga_max_kg</text>
+<text x="129" y="505" fill="black">ENDERECO_PRATELEIRA</text>
+<rect x="129.0" y="510" width="95.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="527" fill="black">Id_endereco</text>
+<line x1="137.0" y1="529.5" x2="216.2" y2="529.5" stroke="black" stroke-width="1"/>
+<rect x="224.2" y="510" width="85.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="232.2" y="527" fill="black">Largura_m</text>
+<rect x="309.5" y="510" width="114.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="317.5" y="527" fill="black">Carga_nivel_kg</text>
+<text x="129" y="585" fill="black">ENDERECO_PISO</text>
+<rect x="129.0" y="590" width="95.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="607" fill="black">Id_endereco</text>
+<line x1="137.0" y1="609.5" x2="216.2" y2="609.5" stroke="black" stroke-width="1"/>
+<rect x="224.2" y="590" width="73.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="232.2" y="607" fill="black">Area_m2</text>
+<rect x="297.6" y="590" width="145.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="305.6" y="607" fill="black">Empilhamento_max</text>
+<text x="129" y="665" fill="black">FORNECEDOR</text>
+<rect x="129.0" y="670" width="105.1" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="687" fill="black">Id_fornecedor</text>
+<line x1="137.0" y1="689.5" x2="226.1" y2="689.5" stroke="black" stroke-width="1"/>
+<rect x="234.1" y="670" width="99.0" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="242.1" y="687" fill="black">Razao_social</text>
+<rect x="333.2" y="670" width="45.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="341.2" y="687" fill="black">Cnpj</text>
+<rect x="378.3" y="670" width="70.1" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="386.3" y="687" fill="black">Telefone</text>
+<rect x="448.4" y="670" width="61.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="456.4" y="687" fill="black">Cidade</text>
+<text x="129" y="737" fill="black">FUNCIONARIO</text>
+<rect x="129.0" y="742" width="107.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="759" fill="black">Id_funcionario</text>
+<line x1="137.0" y1="761.5" x2="228.4" y2="761.5" stroke="black" stroke-width="1"/>
+<rect x="236.4" y="742" width="133.7" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="244.4" y="759" fill="black">Nome_funcionario</text>
+<rect x="370.1" y="742" width="76.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="378.1" y="759" fill="black">Matricula</text>
+<rect x="446.3" y="742" width="54.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="454.3" y="759" fill="black">Cargo</text>
+<text x="129" y="809" fill="black">RECEBIMENTO</text>
+<rect x="129.0" y="814" width="116.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="831" fill="black">Id_recebimento</text>
+<line x1="137.0" y1="833.5" x2="237.6" y2="833.5" stroke="black" stroke-width="1"/>
+<rect x="245.6" y="814" width="86.9" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="253.6" y="831" fill="black">Numero_nf</text>
+<rect x="332.5" y="814" width="135.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="340.5" y="831" fill="black">Data_recebimento</text>
+<rect x="468.1" y="814" width="105.1" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="476.1" y="831" fill="black">Id_fornecedor</text>
+<rect x="573.2" y="814" width="107.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="581.2" y="831" fill="black">Id_funcionario</text>
+<text x="129" y="897" fill="black">LOTE</text>
+<rect x="129.0" y="902" width="59.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="919" fill="black">Id_lote</text>
+<line x1="137.0" y1="921.5" x2="180.2" y2="921.5" stroke="black" stroke-width="1"/>
+<rect x="188.2" y="902" width="85.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="196.2" y="919" fill="black">Id_produto</text>
+<rect x="273.6" y="902" width="116.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="281.6" y="919" fill="black">Id_recebimento</text>
+<rect x="390.2" y="902" width="92.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="398.2" y="919" fill="black">Codigo_lote</text>
+<rect x="482.4" y="902" width="121.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="490.4" y="919" fill="black">Data_fabricacao</text>
+<rect x="603.9" y="902" width="108.9" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="611.9" y="919" fill="black">Data_validade</text>
+<rect x="712.8" y="902" width="154.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="720.8" y="919" fill="black">Quantidade_recebida</text>
+<text x="129" y="985" fill="black">ESTOQUE_ENDERECO</text>
+<rect x="129.0" y="990" width="59.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="1007" fill="black">Id_lote</text>
+<line x1="137.0" y1="1009.5" x2="180.2" y2="1009.5" stroke="black" stroke-width="1"/>
+<rect x="188.2" y="990" width="95.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="196.2" y="1007" fill="black">Id_endereco</text>
+<line x1="196.2" y1="1009.5" x2="275.5" y2="1009.5" stroke="black" stroke-width="1"/>
+<rect x="283.5" y="990" width="91.8" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="291.5" y="1007" fill="black">Quantidade</text>
+<text x="129" y="1073" fill="black">CLIENTE</text>
+<rect x="129.0" y="1078" width="78.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="1095" fill="black">Id_cliente</text>
+<line x1="137.0" y1="1097.5" x2="199.3" y2="1097.5" stroke="black" stroke-width="1"/>
+<rect x="207.3" y="1078" width="104.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="215.3" y="1095" fill="black">Nome_cliente</text>
+<rect x="311.8" y="1078" width="71.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="319.8" y="1095" fill="black">Cpf_cnpj</text>
+<rect x="383.4" y="1078" width="120.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="391.4" y="1095" fill="black">Telefone_cliente</text>
+<rect x="503.7" y="1078" width="111.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="511.7" y="1095" fill="black">Cidade_cliente</text>
+<text x="129" y="1145" fill="black">VENDA</text>
+<rect x="129.0" y="1150" width="74.7" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="1167" fill="black">Id_venda</text>
+<line x1="137.0" y1="1169.5" x2="195.7" y2="1169.5" stroke="black" stroke-width="1"/>
+<rect x="203.7" y="1150" width="93.7" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="211.7" y="1167" fill="black">Data_venda</text>
+<rect x="297.4" y="1150" width="78.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="305.4" y="1167" fill="black">Id_cliente</text>
+<rect x="375.7" y="1150" width="107.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="383.7" y="1167" fill="black">Id_funcionario</text>
+<text x="129" y="1233" fill="black">ITEM_VENDA</text>
+<rect x="129.0" y="1238" width="110.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="1255" fill="black">Id_item_venda</text>
+<line x1="137.0" y1="1257.5" x2="231.6" y2="1257.5" stroke="black" stroke-width="1"/>
+<rect x="239.6" y="1238" width="74.7" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="247.6" y="1255" fill="black">Id_venda</text>
+<rect x="314.3" y="1238" width="85.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="322.3" y="1255" fill="black">Id_produto</text>
+<rect x="399.7" y="1238" width="127.7" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="407.7" y="1255" fill="black">Quantidade_item</text>
+<rect x="527.4" y="1238" width="108.3" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="535.4" y="1255" fill="black">Preco_unitario</text>
+<text x="129" y="1321" fill="black">MOVIMENTACAO</text>
+<rect x="129.0" y="1326" width="131.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="1343" fill="black">Id_movimentacao</text>
+<line x1="137.0" y1="1345.5" x2="252.5" y2="1345.5" stroke="black" stroke-width="1"/>
+<rect x="260.5" y="1326" width="78.1" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="268.5" y="1343" fill="black">Tipo_mov</text>
+<rect x="338.6" y="1326" width="83.0" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="346.6" y="1343" fill="black">Data_hora</text>
+<rect x="421.7" y="1326" width="126.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="429.7" y="1343" fill="black">Quantidade_mov</text>
+<rect x="548.3" y="1326" width="59.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="556.3" y="1343" fill="black">Id_lote</text>
+<rect x="607.6" y="1326" width="95.2" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="615.6" y="1343" fill="black">Id_endereco</text>
+<rect x="702.8" y="1326" width="107.4" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="710.8" y="1343" fill="black">Id_funcionario</text>
+<text x="129" y="1417" fill="black">ENTRADA_ESTOQUE</text>
+<rect x="129.0" y="1422" width="131.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="1439" fill="black">Id_movimentacao</text>
+<line x1="137.0" y1="1441.5" x2="252.5" y2="1441.5" stroke="black" stroke-width="1"/>
+<rect x="260.5" y="1422" width="158.1" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="268.5" y="1439" fill="black">Id_endereco_sugerido</text>
+<text x="129" y="1505" fill="black">SAIDA_ESTOQUE</text>
+<rect x="129.0" y="1510" width="131.5" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="137.0" y="1527" fill="black">Id_movimentacao</text>
+<line x1="137.0" y1="1529.5" x2="252.5" y2="1529.5" stroke="black" stroke-width="1"/>
+<rect x="260.5" y="1510" width="110.6" height="24" fill="none" stroke="black" stroke-width="1"/>
+<text x="268.5" y="1527" fill="black">Id_item_venda</text>
+<path d="M741.2,134 V146 H113 V57.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M161.8,286 V298 H113 V209.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M242.5,286 V306 H95 V43.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M257.0,374 V386 H104 V195.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M176.6,454 V466 H113 V369.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M176.6,534 V546 H95 V366.2 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M176.6,614 V626 H86 V363.4 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M520.6,838 V850 H95 V682.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M626.9,838 V858 H113 V761.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M230.9,926 V938 H50 V129.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M331.9,926 V946 H104 V826.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M158.6,1014 V1026 H113 V921.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M235.8,1014 V1034 H59 V360.6 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M336.5,1174 V1186 H113 V1090.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M429.4,1174 V1194 H86 V754.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M276.9,1262 V1274 H104 V1162.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M357.0,1262 V1282 H23 V115.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M577.9,1350 V1362 H77 V907.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M655.2,1350 V1370 H41 V357.8 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M756.5,1350 V1378 H68 V747.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M194.8,1446 V1458 H113 V1345.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M339.6,1446 V1466 H32 V355.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M194.8,1534 V1546 H104 V1331.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+<path d="M315.8,1534 V1554 H95 V1250.0 H129.0" fill="none" stroke="black" stroke-width="1.1" marker-end="url(#seta)"/>
+</svg>

@@ -1,0 +1,31 @@
+# Sobe um PostgreSQL 16 ja com o banco criado e os dados de exemplo.
+# Na primeira subida, o Postgres executa em ordem os arquivos de ./db
+# (01_schema, 02_regras, 03_visoes, 04_dados_exemplo).
+#
+#   docker compose up -d        # sobe
+#   docker compose down -v      # derruba e apaga os dados (recria do zero na proxima subida)
+services:
+  db:
+    image: postgres:16
+    container_name: deposito_db
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-deposito}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-deposito}
+      POSTGRES_DB: bd_deposito
+      TZ: America/Sao_Paulo
+      PGTZ: America/Sao_Paulo
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d:ro
+      - ./queries:/queries:ro
+      - ./tests:/tests:ro
+      - dados:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-deposito} -d bd_deposito"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  dados:
